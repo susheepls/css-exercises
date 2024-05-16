@@ -2,7 +2,18 @@
     font-family: Verdana, 'DejaVu Sans', 'sans-serif';
     background-color: #C03865;
 }
+
 #second {
     color: #0000ff;
     font-size: 36px;
+}
+
+#cooler,
+#fourth {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: #58d858;
+    font-weight: 700;
 }
