@@ -8,25 +8,22 @@ body {
   display: flex;
   flex-flow: column nowrap;
 }
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 10px;
-}
-li{
-  float: left;
-  margin: 5px;
-}
 .container{
   display: flex;
   flex-flow: column nowrap;
+  align-content: space-between;
+  margin: auto;
 }
 .header,
 .footer{
   display: flex;
 }
+.right-links{
+  align-self: flex-end;
+}
 .content{
-  
+  padding: auto;
+  margin: auto;
 }
 .buttons{
   height: 50px;
@@ -47,4 +44,13 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+li{
+  float: left;
+  margin: 5px;
 }
