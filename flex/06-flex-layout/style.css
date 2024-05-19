@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
 }
 ul{
   list-style-type: none;
@@ -22,18 +24,12 @@ li{
 .header,
 .footer{
   display: flex;
-  justify-content: space-between;
 }
 .content{
-  display: flex;
-  flex-flow: column nowrap;
-  margin: auto;
-  align-items: center;
   
 }
 .buttons{
   height: 50px;
-  
 }
 img {
   width: 600px;
