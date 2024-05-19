@@ -8,20 +8,11 @@ body {
   display: flex;
   flex-flow: column nowrap;
 }
-.container{
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-  align-items: center;
-}
 .header,
 .footer{
   display: flex;
   justify-content: space-between;
   padding: 16px;
-}
-.right-links{
-  align-self: flex-end;
 }
 .content{
   flex: 1;
